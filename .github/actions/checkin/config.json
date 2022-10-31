@@ -1,10 +1,10 @@
-{
+{   "retry":5,
     "domains": [
         {
-            "domain": "",
+            "domain": "https://purefast.net",
             "param": {
-                "email": "",
-                "passwd": "",
+                "email": "tomxingwu.501@gmail.com",
+                "passwd": "123456789",
                 "login": "/auth/login",
                 "checkin": "/user/checkin"
             }
