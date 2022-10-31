@@ -117,6 +117,7 @@ def getconf_from_env():
     domains = os.environ.get("AP_DOMAINS", "").strip().split("||")
     emails = os.environ.get("AP_EMAILS", "").strip().split("||")
     passwords = os.environ.get("AP_PASSWORDS", "").strip().split("||")
+    print('输出参数')
     print(domains[0])
     print(passwords[0])
     print(emails[0])
