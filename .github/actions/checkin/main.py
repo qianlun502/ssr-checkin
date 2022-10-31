@@ -117,7 +117,9 @@ def getconf_from_env():
     domains = os.environ.get("AP_DOMAINS", "").strip().split("||")
     emails = os.environ.get("AP_EMAILS", "").strip().split("||")
     passwords = os.environ.get("AP_PASSWORDS", "").strip().split("||")
-
+    print(domains[0])
+    print(passwords[0])
+    print(emails[0])
     if not domains or not emails or not passwords:
         print(
             "invalidate config, environment variables are missing or blank, must include AP_DOMAINS, AP_EMAILS and AP_PASSWORDS and cannot be empty"
